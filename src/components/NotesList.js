@@ -6,8 +6,10 @@ import AddNote from './AddNote'
 function NotesList( { notes, addNote, deleteNote } ) {
     return (
         <div className="notes-list">
-            {notes.map(note => {
-               return <Note 
+            {notes.map((note,index) => {
+                console.log(note.id)
+               return <Note
+                        key={index} 
                         id={note.id}
                         text={note.text}
                         date={note.date}

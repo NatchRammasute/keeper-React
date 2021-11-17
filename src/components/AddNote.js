@@ -9,6 +9,7 @@ function AddNote({addNote}) {
         if(noteText.trim().length > 0){
             addNote(noteText)
             setNoteText('')
+            
         }
         
     }
