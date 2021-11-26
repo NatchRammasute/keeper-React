@@ -1,6 +1,8 @@
 # React-Keeper-App 
 Link: https://boring-wright-7c7e51.netlify.app/
 
+![GitHub Logo](photo-template.png)
+
 
 # Getting Started with Create React App
 
